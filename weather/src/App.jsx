@@ -4,6 +4,7 @@ import WeatherCard from "./components/WeatherCard";
 import { WeatherContext } from "./components/context/WeatherContext";
 import VideoBackground from "./components/WeatherBackground/WeatherBackground";
 
+
 function App() {
   const { weather, error } = useContext(WeatherContext);
   return (

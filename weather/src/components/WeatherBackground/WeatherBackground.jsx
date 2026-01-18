@@ -22,7 +22,7 @@ const VideoBackground = ({ weather }) => {
     <video
       autoPlay
       loop
-      muted
+      // muted
       className="z-0 absolute top-0 left-0 w-full h-full object-cover"
     >
       <source src={videoSrc} type="video/mp4" />
